@@ -9,12 +9,12 @@ var makeStack = function(){
 
   instance.push = function(value){
     instance[size] = value;
-	size++;
+	   size++;
   };
 
   instance.pop = function(){
     if (size){
-	  size--;
+	     size--;
       return instance[size];
     }
     
